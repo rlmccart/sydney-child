@@ -23,3 +23,12 @@ Version: 0.1.0
   --pi-grey-charcoal: rgba(55, 62, 70, 1);
   --pi-grey-rock: rgba(44, 54, 62, 1);
 }
+
+
+/* HOME PAGE HERO SLIDER */
+#slideshow {
+  height: 80vh;
+}
+.text-slider {
+
+}
