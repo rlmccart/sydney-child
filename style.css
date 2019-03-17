@@ -105,7 +105,7 @@ p > a:hover {
 }
 
 /* HOME PAGE HERO SLIDER */
-#slideshow {
+.header-slider {
   height: 70vh;
 }
 .text-slider {
@@ -116,6 +116,27 @@ p > a:hover {
 .button-slider {
 
 }
+
+/* HOME PAGE CONTENT */
+.entry-header {
+  display: none;
+}
+.fl-module-content fl-node-content {
+  position: relative;
+}
+.fl-callout-title-link fl-callout-title-text {
+  color: var(--pi-green);
+  font-size: 2.441em;
+}
+.fl-callout-text-wrap {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 80%;
+  position: absolute;
+  top: 81%;
+  padding: 10px;
+}
+
+
 
 /* CONTACT */
 .fl-builder-content {
