@@ -99,6 +99,11 @@ p > a:hover {
   border: none;
 }
 
+/* WORDPRESS THEME OVERRIDES */
+.entry-header {
+  display: none;
+}
+
 /* HOME PAGE HERO SLIDER */
 #slideshow {
   height: 70vh;
@@ -110,4 +115,35 @@ p > a:hover {
 }
 .button-slider {
 
+}
+
+/* CONTACT */
+.fl-builder-content {
+  list-style-type: none;
+  padding-left: 10px;
+}
+#nf-field-16 {
+  display: inline-block;
+  background: transparent;
+  border: 1px solid var(--pi-green);
+  color: var(--pi-grey-rock);
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 18px;
+  padding: 12px 24px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -wekbit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#nf-field-16:hover {
+  background: linear-gradient(45deg, var(--pi-green), var(--pi-green-light));
+  color: var(--pi-grey-rock);
+  border: none;
 }
