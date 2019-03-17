@@ -8,6 +8,18 @@ Version: 0.1.0
 
 /* Testing  */
 .roll-button {
-    background-color: green;
+    background-color: var(--pi-green);
     border: 1px solid white;
+}
+
+/* GLOBAL STYLES */
+:root {
+  --pi-green: rgba(74, 134, 64, 1);
+  --pi-green-light: rgba(135, 175, 74, 1);
+  --pi-blue: rgba(0, 103, 172, 1);
+  --pi-blue-dark: rgba(30, 68, 119, 1);
+  --pi-grey-light: rgba(215, 219, 214, 1);
+  --pi-grey-storm: rgba(95, 113, 120, 1);
+  --pi-grey-charcoal: rgba(55, 62, 70, 1);
+  --pi-grey-rock: rgba(44, 54, 62, 1);
 }
