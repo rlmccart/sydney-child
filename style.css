@@ -62,13 +62,13 @@ blockquote {
 
 
 /* LINKS AND BUTTONS */
-a {
+p > a {
   color: black;
   font-weight: bold;
   border-bottom: 1.5px var(--pi-green-light) solid;
   transition: all 0.4s;
 }
-a:hover {
+p > a:hover {
   border-bottom: none;
   color: #487d3b;
 }
