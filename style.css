@@ -23,12 +23,65 @@ Version: 0.1.0
   --pi-grey-charcoal: rgba(55, 62, 70, 1);
   --pi-grey-rock: rgba(44, 54, 62, 1);
 }
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: var(--pi-grey-rock);
+  font-size: 1em;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+  color: var(--pi-grey-rock);
+}
+h1 {
+  font-size: 3.052em;
+}
+h2 {
+  font-size: 2.441em;
+}
+h3 {
+  font-size: 1.953em;
+}
+h4 {
+  font-size: 1.563em;
+}
+h5 {
+  font-size: 1.25em;
+}
+h6 {
+  font-size: 1em;
+}
+blockquote {
+  font-family: 'Roboto Slab', serif;
+  color:black;
+  font-size: 1.5em;
+}
+
+/* LINKS AND BUTTONS */
+a {
+  color: black;
+  font-weight: bold;
+  background: linear-gradient(left, transparent 0%,#444 50%,transparent 100%);
+}
+a:hover {
+  background: inherit;
+  color: #487d3b;
+}
+
 
 
 /* HOME PAGE HERO SLIDER */
 #slideshow {
-  height: 80vh;
+  height: 70vh;
 }
 .text-slider {
+  text-align: left;
+  padding-left: 40px;
+  width: 50%;
+}
+.button-slider {
 
 }
