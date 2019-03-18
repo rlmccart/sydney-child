@@ -6,12 +6,6 @@ Template: sydney
 Version: 0.1.0
 */
 
-/* Testing  */
-.roll-button {
-    background-color: var(--pi-green);
-    border: 1px solid white;
-}
-
 /* GLOBAL STYLES */
 :root {
   --pi-green: rgba(74, 134, 64, 1);
