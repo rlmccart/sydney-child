@@ -162,3 +162,115 @@ p > a:hover {
   color: var(--pi-grey-rock);
   border: none;
 }
+
+
+
+/*
+// FOOTER //
+*/
+.footer-wrapper {
+  position: relative;
+}
+.pi-footer {
+  background-color: var(--pi-grey-rock);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  line-height: 30px;
+}
+.pi-footer a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.25s ease-in-out;
+}
+.pi-footer ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.pi-footer a:hover {
+    color: var(--pi-green);
+}
+.pi-footer__col {
+  width: calc(100% / 3);
+}
+.pi-footer__sol-sm svg {
+  width: 35px;
+  fill: var(--pi-green-light);
+  margin-right: 10px;
+  transition: all 0.25s ease-in-out;
+}
+.pi-footer__sol-sm svg:hover {
+  transform:scale(1.2);
+  fill: var(--pi-green);
+}
+.pi-footer__col-logo {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.pi-footer__col-logo img {
+  width: 200px;
+}
+.pi-footer__col-nav {
+  text-align: center;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 900px){
+  .pi-footer {
+    flex-direction: row;
+  }
+  .pi-footer ul {
+    text-align: left;
+  }
+  .pi-footer__col-nav ul {
+    text-align: right;
+  }
+}
+.footer-mountains {
+  background-color: var(--pi-grey-rock);
+  /* background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png"); */
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  top: -80px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -100;
+  -webkit-clip-path: polygon(
+  0 20%,
+  9% 13%,
+  18% 20%,
+  27% 8%,
+  35% 18%,
+  50% 0,
+  65% 18%,
+  74% 5%,
+  82% 17%,
+  88% 12%,
+  93% 18%,
+  96% 16%,
+  100% 20%,
+  100% 100%,
+  0% 100%);
+clip-path: polygon(
+  0 20%,
+  9% 13%,
+  18% 20%,
+  27% 8%,
+  35% 18%,
+  50% 0,
+  65% 18%,
+  74% 5%,
+  82% 17%,
+  88% 12%,
+  93% 18%,
+  96% 16%,
+  100% 20%,
+  100% 100%,
+  0% 100%);
+}
