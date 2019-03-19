@@ -107,10 +107,16 @@ p > a:hover {
   padding-left: 40px;
   width: 50%;
 }
-.button-slider {
-
+.slide-inner .maintitle {
+  color: var(--pi-green-light);
 }
-
+.slide-inner .subtitle {
+  color: white;
+}
+.slide-inner .roll-button .button-slider {
+  background-color: var(--pi-green);
+  border: 1px solid var(--pi-green-light);
+}
 /* HOME PAGE CONTENT */
 .entry-header {
   display: none;
