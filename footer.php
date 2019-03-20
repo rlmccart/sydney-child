@@ -92,7 +92,11 @@
 				<div class="footer-mountains"></div>
 			</div> <!-- CLOSE FOOTER WRAPPER -->
 			<article class="pi-copyright">
+<<<<<<< HEAD
 				<p>Created by Coral Creative &copy;<?= date('Y'); ?> </p>
+=======
+				<p>Created by Coral Creative <?= date('Y'); ?> </p>
+>>>>>>> master
 			</article>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
