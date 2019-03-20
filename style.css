@@ -284,3 +284,6 @@ clip-path: polygon(
 .site-footer, .site-footer a {
     color: white;
   }
+  #colophon {
+    background-color: transparent;
+  }
