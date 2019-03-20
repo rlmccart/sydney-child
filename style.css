@@ -280,7 +280,15 @@ clip-path: polygon(
   100% 100%,
   0% 100%);
 }
-/*  WP OVERRIDES */
+.pi-copyright {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--pi-grey-rock);
+}
+.pi-copyright p {
+  color: white;
+}
+/*  WP FOOTER OVERRIDES */
 .site-footer, .site-footer a {
     color: white;
   }
