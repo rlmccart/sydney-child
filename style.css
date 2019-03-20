@@ -97,6 +97,11 @@ p > a:hover {
   display: none;
 }
 
+/* NAVIGATION */
+.site-header.float-header {
+    background-color: var(--pi-grey-light) !important;
+}
+
 /* HOME PAGE HERO SLIDER */
 .header-slider {
   height: 75vh !important;
