@@ -22,7 +22,6 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %2$s by %1$s.', 'sydney' ), 'aThemes', '<a href="https://athemes.com/theme/sydney" rel="designer">Sydney</a>' ); ?>
 			<div class="footer-wrapper">
 				<footer class="pi-footer">
 					<div class="pi-footer__col ">
@@ -92,11 +91,7 @@
 				<div class="footer-mountains"></div>
 			</div> <!-- CLOSE FOOTER WRAPPER -->
 			<article class="pi-copyright">
-<<<<<<< HEAD
 				<p>Created by Coral Creative &copy;<?= date('Y'); ?> </p>
-=======
-				<p>Created by Coral Creative <?= date('Y'); ?> </p>
->>>>>>> master
 			</article>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
