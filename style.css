@@ -28,7 +28,7 @@ p {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', serif;
-  color: var(--pi-green);
+  color: var(--pi-green) !important;
 }
 h1 {
   font-size: 3.052em;
