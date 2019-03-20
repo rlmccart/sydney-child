@@ -148,6 +148,10 @@ p > a:hover {
   position: relative;
 }
 
+/* SERVICES */
+body a.fl-callout-title-link {
+	color: var(--pi-green) !important;
+}
 
 /* CONTACT */
 .fl-builder-content {
