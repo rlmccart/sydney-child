@@ -101,8 +101,13 @@ p > a:hover {
 .site-header.float-header {
     background-color: var(--pi-grey-light) !important;
 }
+<<<<<<< HEAD
 .site-logo {
   max-width: 85% !important;
+=======
+.site-logo img {
+  max-width: 85%;
+>>>>>>> master
 }
 
 /* HOME PAGE HERO SLIDER */
