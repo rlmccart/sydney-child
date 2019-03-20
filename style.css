@@ -28,7 +28,6 @@ p {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', serif;
-  color: var(--pi-grey-rock);
   color: var(--pi-green);
 }
 h1 {
@@ -100,23 +99,33 @@ p > a:hover {
 
 /* HOME PAGE HERO SLIDER */
 .header-slider {
-  height: 70vh;
+  height: 75vh !important;
 }
 .text-slider {
   text-align: left;
   padding-left: 40px;
-  width: 50%;
+  width: 60%;
 }
 .slide-inner .maintitle {
-  color: var(--pi-green-light);
+  color: var(--pi-green-light) !important;
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
 }
 .slide-inner .subtitle {
-  color: white;
+  color: white !important;
 }
-.slide-inner .roll-button .button-slider {
-  background-color: var(--pi-green);
-  border: 1px solid var(--pi-green-light);
+.slide-inner .roll-button {
+  background-color: var(--pi-green) !important;
+  border: none !important;
+	transition: all .25s ease-in-out
 }
+.slide-inner .roll-button:hover {
+  background-color: transparent !important;
+  border: 1px solid var(--pi-green-light) !important;
+	color: var(--pi-green);
+}
+
+
 /* HOME PAGE CONTENT */
 .entry-header {
   display: none;
@@ -124,18 +133,6 @@ p > a:hover {
 .fl-module-content fl-node-content {
   position: relative;
 }
-.fl-callout-title-link fl-callout-title-text {
-  color: var(--pi-green);
-  font-size: 2.441em;
-}
-.fl-callout-text-wrap {
-  background-color: rgba(255, 255, 255, 0.8);
-  width: 80%;
-  position: absolute;
-  top: 81%;
-  padding: 10px;
-}
-
 
 
 /* CONTACT */
@@ -174,6 +171,9 @@ p > a:hover {
 /*
 // FOOTER //
 */
+.site-footer, .site-footer a {
+	color: #fff !important;
+}
 .footer-wrapper {
   position: relative;
 }
