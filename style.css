@@ -147,7 +147,9 @@ p > a:hover {
 .slide-inner .roll-button {
   background-color: var(--pi-green) !important;
   border: none !important;
-	transition: all .25s ease-in-out
+	transition: all .25s ease-in-out;
+  position: absolute;
+  left: 35px;
 }
 .slide-inner .roll-button:hover {
   background-color: transparent !important;
