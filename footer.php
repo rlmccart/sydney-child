@@ -75,7 +75,7 @@
 					</div>
 					<div class="pi-footer__col">
 						<div class="pi-footer__col-logo">
-							<img src="img/pi-logo-vertical-white.png"></img>
+							<img src="<?php bloginfo('get_template_directory'); ?>/images/pi-logo-vertical-white.png" alt="Paterson Industry Logo"></img>
 						</div>
 					</div>
 					<div class="pi-footer__col pi-footer__col-nav ">
