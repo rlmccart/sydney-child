@@ -122,19 +122,10 @@ p > a:hover {
 }
 
 /* NAVIGATION */
-.site-header.float-header {
-    background-color: var(--pi-grey-light) !important;
-}
 .site-logo {
   max-width: 85% !important;
 }
-#mainnav ul li a, #mainnav ul li::before {
-<<<<<<< HEAD
-    color: var(--pi-grey-rock) !important;
-=======
-    color: var(--pi-grey-rock);
->>>>>>> master
-}
+
 
 /* HOME PAGE HERO SLIDER */
 .header-slider {
