@@ -123,10 +123,24 @@ p > a:hover {
 
 /* NAVIGATION */
 .site-logo {
-  max-width: 70% !important;
+  max-width: 150px !important;
 }
-
-
+@media screen and (min-width: 997px){
+  .site-logo {
+    max-width: 70% !important;
+  }
+}
+@media only screen and (min-width: 767px){
+.btn-menu {
+    float: none;
+    margin: -10px 0 7px 30px;
+}
+}
+@media only screen and (min-width: 1024px){
+.btn-menu {
+        margin: -12px 10px 13px 85%;
+}
+}
 /* HOME PAGE HERO SLIDER */
 .header-slider {
   height: 75vh !important;
@@ -134,7 +148,12 @@ p > a:hover {
 .text-slider {
   text-align: left;
   padding-left: 40px;
-  width: 60%;
+  width: 90%;
+}
+@media screen and (min-width: 997px){
+  .text-slider {
+    width: 60%;
+  }
 }
 .slide-inner .maintitle {
   color: var(--pi-green-light) !important;
