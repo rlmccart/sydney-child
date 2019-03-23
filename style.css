@@ -173,8 +173,8 @@ p > a:hover {
 }
 .slide-inner .maintitle {
   color: var(--pi-green-light) !important;
-	font-family: 'Roboto Slab', serif;
 	text-transform: uppercase;
+  font-family: 'Roboto', sans-serif !important;
 }
 .slide-inner .subtitle {
   color: white !important;
