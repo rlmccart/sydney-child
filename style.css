@@ -255,6 +255,17 @@ body a.fl-callout-title-link {
 .pi-footer a:hover {
     color: var(--pi-green);
 }
+/*PI Footer Link*/
+.pi-footer__link {
+    color: white;
+    font-weight: bold;
+    border-bottom: 1.5px var(--pi-green-light) solid;
+    transition: all 0.4s;
+  }
+  .pi-footer__link:hover {
+    border-bottom: none;
+    color: #487d3b;
+}
 .pi-footer__col {
   width: calc(100% / 3);
 }
