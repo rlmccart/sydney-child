@@ -26,8 +26,12 @@ p {
   color: var(--pi-grey-rock);
   font-size: 1em;
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Slab', serif;
+h1 {
+  font-family: 'Roboto', sans-serif !important;
+  color: var(--pi-green) !important;
+}
+h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif !important;
   color: var(--pi-green) !important;
 }
 h1 {
@@ -41,7 +45,7 @@ h2 {
 }
 h2::after {
   content:'';
-  height: 2px;
+  height: 3px;
   width: 50%;
   background: linear-gradient(45deg, var(--pi-green), var(--pi-green-light));
   position: absolute;
