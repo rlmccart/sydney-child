@@ -43,13 +43,13 @@ h2 {
   position: relative;
 }
 h2::after {
-  content:'';
-  height: 3px;
-  width: 50%;
+  content: '';
+  height: 2px;
+  width: 15%;
   background: linear-gradient(45deg, var(--pi-green), var(--pi-green-light));
   position: absolute;
-  left:calc(50% - 25%);
-  bottom:-5px;
+  left: calc(50% - 7.5%);
+  bottom: -0.25em;
 }
 h3 {
   font-size: 1.953em;
