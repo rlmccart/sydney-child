@@ -80,11 +80,13 @@
 					</div>
 					<div class="pi-footer__col pi-footer__col-nav ">
 						<ul>
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Services</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Projects</a></li>
-							<li><a href="#">Careers</a></li>
+							<li><a href="http://www.rachelmccart.com/paterson-industries/">Home</a></li>
+							<li><a href="http://www.rachelmccart.com/paterson-industries/services">Services</a></li>
+							<li><a href="http://www.rachelmccart.com/paterson-industries/about">About</a></li>
+							<li><a href="http://www.rachelmccart.com/paterson-industries/projects">Projects</a></li>
+							<li><a href="http://www.rachelmccart.com/paterson-industries/projects">Safety</a></li>
+							<li><a href="http://www.rachelmccart.com/paterson-industries/careers">Careers</a></li>
+							<li><a href="http://www.rachelmccart.com/paterson-industries/contact">Contact</a></li>
 						</ul>
 					</div>
 				</footer>

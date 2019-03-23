@@ -253,7 +253,7 @@ body a.fl-callout-title-link {
     padding: 0;
     text-align: center;
 }
-.pi-footer a:hover {
+.pi-footer ul li a:hover {
     color: var(--pi-green) !important;
 }
 /* PI FOOTER P LINKS */
