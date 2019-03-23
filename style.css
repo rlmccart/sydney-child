@@ -286,6 +286,7 @@ body a.fl-callout-title-link {
 }
 .pi-footer__col-logo img {
   width: 200px;
+  padding: 20px;
 }
 .pi-footer__col-nav {
   text-align: center;
