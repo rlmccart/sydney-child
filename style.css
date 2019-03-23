@@ -41,7 +41,6 @@ h2 {
   font-size: 2.441em;
   text-transform: uppercase;
   position: relative;
-  display: inline-block;
 }
 h2::after {
   content:'';
