@@ -35,6 +35,18 @@ h1 {
 }
 h2 {
   font-size: 2.441em;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+}
+h2::after {
+  content:'';
+  height: 2px;
+  width: 50%;
+  background: linear-gradient(45deg, var(--pi-green), var(--pi-green-light));
+  position: absolute;
+  left:calc(50% - 25%);
+  bottom:-5px;
 }
 h3 {
   font-size: 1.953em;
@@ -147,7 +159,7 @@ p > a:hover {
 }
 .text-slider {
   text-align: left;
-  padding-left: 40px;
+  padding-left: 60px;
   width: 90%;
 }
 @media screen and (min-width: 997px){
@@ -169,7 +181,7 @@ p > a:hover {
   border-radius: 0;
 	transition: all .25s ease-in-out;
   position: absolute;
-  left: 35px;
+  left: 60px;
 }
 .slide-inner .roll-button:hover {
   background-color: rgba(255, 255, 255, 0.2) !important;
