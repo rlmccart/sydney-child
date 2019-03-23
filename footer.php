@@ -26,7 +26,7 @@
 				<footer class="pi-footer">
 					<div class="pi-footer__col ">
 						<ul>
-							<a href="https://www.facebook.com" class="pi-footer__sol-sm">
+							<a href="https://www.facebook.com" class="pi-footer__sol-sm" target="_blank">
 								<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 								 width="56.693px" height="56.693px" viewBox="0 0 56.693 56.693" enable-background="new 0 0 56.693 56.693" xml:space="preserve">
 								<path d="M28.347,5.157c-13.6,0-24.625,11.027-24.625,24.625c0,13.6,11.025,24.623,24.625,24.623c13.6,0,24.625-11.023,24.625-24.623
@@ -35,7 +35,7 @@
 								h4.818L34.864,29.679z"/>
 								</svg>
 							</a>
-							<a href="https://www.linkedin.com/in/clarence-paterson-10117663/" class="pi-footer__sol-sm">
+							<a href="https://www.linkedin.com/in/clarence-paterson-10117663/" class="pi-footer__sol-sm"  target="_blank">
 								<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 								 width="56.693px" height="56.693px" viewBox="0 0 56.693 56.693" enable-background="new 0 0 56.693 56.693" xml:space="preserve">
 								<g>
@@ -52,7 +52,7 @@
 								</g>
 								</svg>
 							</a>
-							<a href="https://www.instagram.com/" class="pi-footer__sol-sm">
+							<a href="https://www.instagram.com/" class="pi-footer__sol-sm"  target="_blank">
 								<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 									 width="56.7px" height="56.7px" viewBox="0 0 56.7 56.7" style="enable-background:new 0 0 56.7 56.7;" xml:space="preserve">
 								<g>
