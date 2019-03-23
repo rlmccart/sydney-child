@@ -246,6 +246,9 @@ body a.fl-callout-title-link {
 /*
 // FOOTER //
 */
+.site-info.container {
+  width: 100%;
+}
 .site-footer, .site-footer a {
 	color: #fff !important;
 }
