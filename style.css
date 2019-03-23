@@ -242,6 +242,7 @@ body a.fl-callout-title-link {
   color: white;
   line-height: 30px;
 }
+/* PI FOOTER DOM/SITEMAP LINKS */
 .pi-footer a {
   text-decoration: none;
   color: white;
@@ -253,9 +254,9 @@ body a.fl-callout-title-link {
     text-align: center;
 }
 .pi-footer a:hover {
-    color: var(--pi-green);
+    color: var(--pi-green) !important;
 }
-/*PI Footer Link*/
+/* PI FOOTER P LINKS */
 .pi-footer__link {
     color: white;
     font-weight: bold;
@@ -264,7 +265,7 @@ body a.fl-callout-title-link {
   }
   .pi-footer__link:hover {
     border-bottom: none;
-    color: #487d3b;
+    color: var(--pi-green) !important;
 }
 .pi-footer__col {
   width: calc(100% / 3);
