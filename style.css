@@ -378,6 +378,7 @@ clip-path: polygon(
 }
 .pi-copyright p {
   color: white;
+  font-size: 9px !important;
 }
 /*  WP FOOTER OVERRIDES */
 .site-footer, .site-footer a {
