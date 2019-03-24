@@ -67,7 +67,7 @@
 								</g>
 								</svg>
 							</a>
-							<li>123-456-7890</li>
+							<li><a href="tel:1234567890">123-456-7890</a></li>
 							<li>Paterson Industries</li>
 							<li>123 Fake St., Dawson Creek, British Columbia</li>
 							<li><a class="pi-footer__link" href="mailto:info@patersonindustries.com">info@patersonindustries.com</a></li>
