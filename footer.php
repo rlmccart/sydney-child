@@ -84,7 +84,7 @@
 							<li><a href="http://www.rachelmccart.com/paterson-industries/services">Services</a></li>
 							<li><a href="http://www.rachelmccart.com/paterson-industries/about">About</a></li>
 							<li><a href="http://www.rachelmccart.com/paterson-industries/projects">Projects</a></li>
-							<li><a href="http://www.rachelmccart.com/paterson-industries/projects">Safety</a></li>
+							<li><a href="http://www.rachelmccart.com/paterson-industries/safety">Safety</a></li>
 							<li><a href="http://www.rachelmccart.com/paterson-industries/careers">Careers</a></li>
 							<li><a href="http://www.rachelmccart.com/paterson-industries/contact">Contact</a></li>
 						</ul>
