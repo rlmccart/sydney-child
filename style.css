@@ -95,8 +95,18 @@ blockquote {
 }
 
 /* LINKS AND BUTTONS */
+.pi-link {
+    color: var(--pi-grey-rock);
+    font-weight: bold;
+    border-bottom: 1.5px var(--pi-green-light) solid !important;
+    transition: all 0.4s;
+  }
+.pi-link:hover {
+  border-bottom: none;
+  color: var(--pi-green) !important;
+}
 p > a {
-  color: black;
+  color: var(--pi-grey-rock);
   font-weight: bold;
   border-bottom: 1.5px var(--pi-green-light) solid;
   transition: all 0.4s;
@@ -386,4 +396,15 @@ clip-path: polygon(
   }
   #colophon {
     background-color: transparent;
+  }
+  /* LINKS AND BUTTONS */
+  .pi-link {
+      color: var(--pi-grey-rock);
+      font-weight: bold;
+      border-bottom: 1.5px var(--pi-green-light) solid !important;
+      transition: all 0.4s;
+    }
+  .pi-link:hover {
+    border-bottom: none;
+    color: var(--pi-green) !important;
   }
