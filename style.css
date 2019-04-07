@@ -257,8 +257,12 @@ body a.fl-callout-title-link {
 /*
 // FOOTER //
 */
+.site-footer {
+  padding: 0;
+}
 .site-info.container {
   width: 100%;
+  padding: 0;
 }
 .site-footer, .site-footer a {
 	color: #fff !important;
