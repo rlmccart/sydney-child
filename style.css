@@ -210,12 +210,27 @@ p > a:hover {
 }
 /* PAGE HEADER IMAGE TEXT PLACEMENT */
 .pi-header { /*Put this class on the h1 for the page */
-  margin-top: -400px;
+  margin-top: -200px;
 }
 .pi-header-below { /*Put this class on the row right below the pi-header class*/
-  margin-top: 170px;
+  margin-top: 0;
 }
-
+@media screen and (min-width:500px){
+  .pi-header { /*Put this class on the h1 for the page */
+    margin-top: -280px;
+  }
+  .pi-header-below { /*Put this class on the row right below the pi-header class*/
+    margin-top: 45px;
+  }
+}
+@media screen and (min-width:1032px){
+  .pi-header { /*Put this class on the h1 for the page */
+    margin-top: -400px;
+  }
+  .pi-header-below { /*Put this class on the row right below the pi-header class*/
+    margin-top: 170px;
+  }
+}
 /* HOME PAGE CONTENT */
 .entry-header {
   display: none;
