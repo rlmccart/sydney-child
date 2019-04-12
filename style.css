@@ -208,6 +208,14 @@ p > a:hover {
     left: 60px;
   }
 }
+/* PAGE HEADER IMAGE TEXT PLACEMENT */
+.pi-header { /*Put this class on the h1 for the page */
+  margin-top: -400px;
+}
+.pi-header-below { /*Put this class on the row right below the pi-header class*/
+  margin-top: 170px;
+}
+
 /* HOME PAGE CONTENT */
 .entry-header {
   display: none;
