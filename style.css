@@ -180,15 +180,15 @@ p > a:hover {
     padding-left: 60px;
   }
 }
-.slide-inner .maintitle {
+.maintitle {
   color: var(--pi-green-light) !important;
 	text-transform: uppercase;
   font-family: 'Roboto', sans-serif !important;
 }
-.slide-inner .subtitle {
+.subtitle {
   color: white !important;
 }
-.slide-inner .roll-button {
+.roll-button {
   background-color: var(--pi-green) !important;
   border: none !important;
   border-radius: 0;
@@ -196,7 +196,7 @@ p > a:hover {
   position: absolute;
   left: 20px;
 }
-.slide-inner .roll-button:hover {
+.roll-button:hover {
   background-color: rgba(255, 255, 255, 0.2) !important;
   border: 2px solid var(--pi-green-light) !important;
   color: white;
