@@ -160,10 +160,10 @@ p > a:hover {
 .btn-menu {
     margin: -11px 15px 0 0;
 }
-.mainnav-mobi {
-  background-color: rgba(55, 62, 70, .95);
-  right: 0;
-  width: 80%;
+#mainnav-mobi {
+  background-color: rgba(55, 62, 70, .95) !important;
+  right: 0  !important;
+  width: 80%  !important;
 }
 /* HOME PAGE HERO SLIDER */
 .header-slider {
