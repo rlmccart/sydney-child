@@ -150,23 +150,34 @@ p > a:hover {
 /* NAVIGATION */
 .site-logo {
   max-width: 150px !important;
+  float: left;
 }
-@media screen and (min-width: 997px){
-  .site-logo {
-    max-width: 70% !important;
-  }
-}
+.btn-menu {
+ float: right;
+    margin: -40px 20px 0 0;
+}/*
 @media only screen and (min-width: 767px){
 .btn-menu {
     float: none;
     margin: -10px 0 7px 30px;
 }
 }
+@media screen and (min-width: 997px){
+  .site-logo {
+    max-width: 70% !important;
+  }
+}
+@media only screen and (min-width: 1023px){
+.btn-menu {
+        float: right;
+        margin: -4px 10px 13px 85%;
+}
+}
 @media only screen and (min-width: 1024px){
 .btn-menu {
-        margin: -12px 10px 13px 85%;
+        margin: -4px 10px 13px 85%;
 }
-}
+}*/
 /* HOME PAGE HERO SLIDER */
 .header-slider {
   height: 65vh !important;
