@@ -24,7 +24,7 @@ p {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: var(--pi-grey-rock);
-  font-size: 1.3125em;
+  font-size: 1em;
 }
 h1 {
   font-family: 'Roboto', sans-serif !important;
