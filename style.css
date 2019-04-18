@@ -157,13 +157,14 @@ p > a:hover {
     margin: -40px 20px 0 0;
 }
 @media only screen and (min-width: 768px){
-.btn-menu {
-    margin: -11px 15px 0 0;
-}
-#mainnav-mobi {
-  background-color: rgba(55, 62, 70, .95) !important;
-  right: 0  !important;
-  width: 80%  !important;
+  .btn-menu {
+      margin: -11px 15px 0 0;
+  }
+  #mainnav-mobi {
+    background-color: rgba(55, 62, 70, .95) !important;
+    right: 0  !important;
+    width: 80%  !important;
+  }
 }
 /* HOME PAGE HERO SLIDER */
 .header-slider {
