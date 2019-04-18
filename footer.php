@@ -17,7 +17,7 @@
 		<?php get_sidebar('footer'); ?>
 	<?php endif; ?>
 
-    <a class="go-top"><i class="fa fa-angle-up"></i></a>
+  <a class="go-top"><i class="fa fa-angle-up"></i></a>
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
