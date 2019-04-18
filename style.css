@@ -328,7 +328,7 @@ body a.fl-callout-title-link {
     color: var(--pi-green) !important;
 }
 .pi-footer__col {
-  width: calc(100% / 3);
+  width: 100%;
 }
 .pi-footer__sol-sm svg {
   width: 35px;
@@ -354,6 +354,9 @@ body a.fl-callout-title-link {
   text-transform: uppercase;
 }
 @media screen and (min-width: 900px){
+  .pi-footer__col {
+    width: calc(100% / 3);
+  }
   .pi-footer {
     flex-direction: row;
   }
