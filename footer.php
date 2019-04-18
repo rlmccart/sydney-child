@@ -23,7 +23,7 @@
 		<div class="site-info container">
 			<span class="sep"> | </span>
 			<div class="footer-wrapper">
-				<footer class="pi-footer">
+				<div class="pi-footer">
 					<div class="pi-footer__col ">
 						<ul>
 							<a href="https://www.facebook.com" class="pi-footer__sol-sm" target="_blank">
@@ -89,7 +89,7 @@
 							<li><a href="http://www.rachelmccart.com/paterson-industries/contact">Contact</a></li>
 						</ul>
 					</div>
-				</footer>
+				</div>
 				<div class="footer-mountains"></div>
 			</div> <!-- CLOSE FOOTER WRAPPER -->
 			<div class="pi-copyright">
